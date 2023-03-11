@@ -1,0 +1,112 @@
+*{
+  box-sizing: boder-box;
+}
+h1 {font-size:3.5em;}
+h2{font-size:2.3em;}
+p{font-size:1.30em;}
+
+body{
+  margin: 0;
+  background-color: lightgrey;
+  font-family:"roboto", sans-serif;   
+}
+
+
+ 
+#hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+   background-position: center center;
+  background-image: url(https://png.pngtree.com/png-clipart/20190516/original/pngtree-creative-technology-lines-circuit-board-circuit-diagram-motherboard-png-image_3883289.jpg);
+  background-repeat: no-repeat;
+  background-position:  center;
+  height: 640px;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+  
+
+  #education{
+  background-color: ;
+    text-align: center;
+}
+
+#projects{
+  text-align: center;
+}
+#cursos{
+  text-align: center;
+}
+
+#idiomas{
+  text-align:center; 
+  }
+
+#habilidades{
+  text-align: center;
+ 
+}
+footer{
+  background-image: url(https://i.pinimg.com/564x/ab/3d/62/ab3d62f7060215331a7c8c54eaa73f4c.jpg);
+  background-repeat: no-repeat;
+  background-position:  center;
+  height: 150px;
+  background-attachment: fixed;
+  background-size: cover;
+  widht: px; 
+  text-align: center;
+}
+
+.grupo1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+    grid-gap: 55px;
+  padding: 45px 0px;
+}
+.redes a{
+  display: inline-block;
+  text-decoration: none;
+  width: 80px;
+  height: 50px;
+  margin-right: 20px;
+  line-height: 20px;
+  justify-content: center;
+  color: blueviolet;
+  text-align: center;
+  font-size: 40px;
+  background-color: lightblue;
+
+   transition: all 300ms eaase;
+
+}
+.redes a:hover{
+  color: aqua;
+}
+}
+@media screen and (max-widht: 800px){
+  .pie-pagina .redes{
+    width: 90%;
+  grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  padding: 35px 0px;
+  }
+  @media(min-width 720px ){
+    header {
+      position: fixed;
+      width: 100%;
+    }
+  header.hero {
+    flex-direction: row;
+    padding-right: 20px;
+    
+  }
+  
+  }
